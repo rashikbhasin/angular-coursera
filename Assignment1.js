@@ -13,7 +13,7 @@ function appController ($scope) {
   	var x=0
   	var i=0;
   	for(i=0;i<arr.length;i++){
-  		if(arr[i]!=""){
+  		if(arr[i].trim()!=""){
   			x+=1;
   		}
   	}
